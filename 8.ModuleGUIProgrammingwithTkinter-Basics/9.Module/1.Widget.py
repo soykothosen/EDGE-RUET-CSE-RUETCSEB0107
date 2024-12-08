@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox 
 
 # Create the main window
 root = tk.Tk()
@@ -8,6 +9,9 @@ root.geometry("500x500")
 # Add a label
 labelr = tk.Label(root, text="Welcome to Tkinter!", font=("Arial", 16))
 labelr.pack(pady=0)
+
+#messagebox.showinfo("showinfo", "Information") 
+messagebox.showwarning("showwarning", "Warning") 
 
 # Add a button
 def on_button_click():

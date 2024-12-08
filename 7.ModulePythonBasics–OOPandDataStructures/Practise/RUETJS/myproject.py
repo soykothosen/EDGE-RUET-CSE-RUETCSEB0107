@@ -1,4 +1,4 @@
-#import ruetJsNew.ruetjs as rj
+#import ruetjs as rj
 import ruetJsNew.ruetjs as rj
 
 

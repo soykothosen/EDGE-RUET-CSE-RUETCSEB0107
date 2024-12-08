@@ -7,6 +7,6 @@ root.geometry("400x300")
 label1 = tk.Label(root, text="Anchored Label", bg="red")
 
 # Anchor the label to the northwest (top-left corner)
-label1.pack(anchor="nw")
+label1.pack(anchor="se")
 
 root.mainloop()

@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "Soykot",
+            "mobile": "01784286885",
+            "university": "RUET",
+            "password": "123456"
+        },
+        {
+            "name": "Utshab",
+            "mobile": "01521497499",
+            "university": "RUET",
+            "password": "123456"
+        }
+    ]
+}

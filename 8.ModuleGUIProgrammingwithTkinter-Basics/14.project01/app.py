@@ -12,19 +12,6 @@ class App(tk.Tk):
         self.container = tk.Frame(self)
         self.container.pack(fill="both", expand=True)
         
-        # Dictionary to store frames
-        #self.frames = {}
-
-        # Initialize frames
-        
-        # for F in (LoginScreen, RegistrationScreen):
-        #     frame = F(parent=self.container, controller=self)
-        #     self.frames[F.__name__] = frame
-        #     frame.grid(row=0, column=0, sticky="nsew")  # Stack frames on top of each other
-
-        # self.show_frame("LoginScreen")  # Start with LoginScreen
-
-        # Initialize frames manually without using a for loop
         self.frame_login = LoginScreen(parent=self.container, controller=self)
         self.frame_registration = RegistrationScreen(parent=self.container, controller=self)
 
