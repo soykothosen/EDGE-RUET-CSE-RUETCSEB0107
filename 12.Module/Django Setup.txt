@@ -1,0 +1,24 @@
+
+Dowload Python & Install it:
+
+py --version, python --version
+
+pip --version
+
+django-admin --version
+
+pip install django
+
+Project Creation
+
+django-admin startproject myproject
+
+cd myproject
+
+python manage.py runserver
+
+App Creation
+
+
+
+
