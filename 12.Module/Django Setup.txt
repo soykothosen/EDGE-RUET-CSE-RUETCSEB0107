@@ -26,4 +26,15 @@ app - create url.py
 app - views - code write
 
 
+cotact route creation - h1 tag response
+homepage route creation - html file send
+1. templete folder creation - home.html create
+url, views - render
+
+project - setting.py file
+templete - 
+import os
+TEMPLATES = ['DIRS': [os.path.join(BASE_DIR,'templetes')],
+
+
 
