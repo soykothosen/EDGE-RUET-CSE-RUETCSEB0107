@@ -6,6 +6,7 @@ urlpatterns = [
     path('newpage',views.newpageh, name='newpageh'), 
     path('htmlpage',views.htmlpagesend, name='htmlpagesend'),
     path('page02',views.page02, name='page02'),  
+    path('add',views.add, name='add'), 
 
    
     
