@@ -20,8 +20,11 @@ def page02(request):
 
 def add(request):
 
-    number1 = int(request.GET['num1'])
-    number2 = int(request.GET['num2'])
+    # number1 = int(request.GET['num1'])
+    # number2 = int(request.GET['num2'])
+
+    number1 = int(request.POST['num1'])
+    number2 = int(request.POST['num2'])
 
     sum = number1 + number2 
 
