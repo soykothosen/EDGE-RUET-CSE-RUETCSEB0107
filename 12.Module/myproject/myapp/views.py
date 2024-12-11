@@ -12,9 +12,15 @@ def home(request):
 def home(request):
     return render(request,'home.html',{'name': 'Test Name'})
 
+def newpage(request):
+    return render(request,'index.html',{'name': 'Test Name'})
+
 def add(request):
-    var1 = int(request.GET['num1'])
-    var2 = int(request.GET['num2'])
+    #var1 = int(request.GET['num1'])
+    #var2 = int(request.GET['num2'])
+
+    var1 = int(request.POST['num1'])
+    var2 = int(request.POST['num2'])
     
     sum = var1 + var2
 

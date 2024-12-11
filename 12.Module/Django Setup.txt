@@ -37,4 +37,7 @@ import os
 TEMPLATES = ['DIRS': [os.path.join(BASE_DIR,'templetes')],
 
 
+python manage.py collectstatic
+
+
 
