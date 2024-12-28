@@ -1,0 +1,43 @@
+App/Web/Desktop App
+
+Frontend - Web(React Js, Next Js), Mobile App(Flutter, React Native, Kotlin)
+
+Backend - Node Js, Django, Laravel
+
+Database - SQL(MySQL, PostgraSQL), NoSqL(MongoDB)
+
+
+Wordpress
+
+Student  Career
+
+Teacher, Researcher, Higher Study
+
+Software Comapany, Higher Study
+
+Recruitement -
+1. Campus/Online - Exam - CP
+2. Project Evaluations
+
+
+Projects
+1. Blog
+2. Ecommerce
+
+Database Design
+
+User Table (id, Name, Phone, email, password)
+Post Table (postid, Post Title, Price, Description, userid, category Id)
+category Table - Categoryid, CategoryName
+
+
+API
+
+Create - User - INSERT INTO `user` (`userid`, `name`, `phonenumber`, `email`, `pass`) VALUES (NULL, 'Soykot', '01784286885', 's85@gmail.com', '123456');
+Read - SELECT * FROM `user` WHERE phonenumber = '01784286885' AND pass = '123456';
+Update - UPDATE `user` SET `name` = 'Soyko' WHERE `user`.`userid` = 1;
+Delete - DELETE FROM `user` WHERE `user`.`userid` = 1;
+
+Join - 
+
+
