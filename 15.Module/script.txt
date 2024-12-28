@@ -40,4 +40,57 @@ Delete - DELETE FROM `user` WHERE `user`.`userid` = 1;
 
 Join - 
 
+two table - SELECT *
+FROM post
+INNER JOIN category ON post.categoryId = category.cat_id;
+
+
+three Table
+SELECT *
+FROM post
+INNER JOIN category ON post.categoryId = category.cat_id
+INNER JOIN user ON post.userid = user.userid
+;
+
+
+
+WHERE
+
+SELECT *
+FROM post
+INNER JOIN category ON post.categoryId = category.cat_id
+INNER JOIN user ON post.userid = user.userid
+
+WHERE post.categoryId = 1
+;
+
+Soft Delete
+
+rest api formate
+
+{
+    "success": true,
+    "message": "Login successful",
+    "data": {
+        "user": {
+            "id": 32,
+            "fullName": "ANONYMOUS",
+            "email": "s51@gmail.com",
+            "phoneNo": "+8801521497499",
+            "apartmentAddress": null,
+            "streetAddress": null,
+            "remainingPostCredit": 0,
+            "cityId": null,
+            "cityName": "Mirer Tek",
+            "stateId": null,
+            "stateName": "Teaneck",
+            "countryId": null,
+            "countryName": "United States",
+            "avatar": "https://dev.deshi-api.lens-ecom.store/static/images/user.png",
+            "latitude": 40.8932,
+            "longitude": -74.0117
+        }
+    }
+}
+
 
