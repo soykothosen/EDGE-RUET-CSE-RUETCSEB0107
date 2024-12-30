@@ -18,7 +18,7 @@ cd myproject
 python manage.py runserver
 
 App Creation
-python manage.py startapp user
+python manage.py startapp app01
 
 
 project - url.py change
